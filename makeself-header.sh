@@ -551,6 +551,11 @@ if test x"\$quiet" = xn; then
 fi
 
 cd "\$tmpdir"
+if test \$? -ne 0; then
+	echo "Cannot cd \$tmpdir" >&2
+	exit 1
+fi
+
 res=0
 if test x"\$script" != x; then
     if test x"\$export_conf" = x"y"; then

@@ -168,7 +168,7 @@ I will gladly consider merging your pull requests on the [GitHub][10] repository
 
 ## Download
 
-Get the latest official distribution [here][9] (version 2.4.0).
+Get the latest official distribution [here][9] (version 2.4.0.1).
 
 The latest development version can be grabbed from [GitHub][10]. Feel free to submit any patches there through the fork and pull request process.
 
@@ -193,6 +193,7 @@ The latest development version can be grabbed from [GitHub][10]. Feel free to su
   * **v2.3.0:** Support for archive encryption via GPG or OpenSSL. Added LZO and LZ4 compression support. Options to set the packaging date and stop the umask from being overriden. Optionally ignore check for available disk space when extracting. New option to check for root permissions before extracting.
   * **v2.3.1:** Various compatibility updates. Added unit tests for Travis CI in the GitHub repo. New `--tar-extra`, `--untar-extra`, `--gpg-extra`, `--gpg-asymmetric-encrypt-sign` options.
   * **v2.4.0:** Added optional support for SHA256 archive integrity checksums.
+  * **v2.4.0.1:** Fail installation if cannot cd into tmpdir.
 
 ## Links
 
@@ -221,7 +222,7 @@ This project is now hosted on GitHub. Feel free to submit patches and bug report
    [6]: http://earth.google.com/
    [7]: http://www.virtualbox.org/
    [8]: http://www.gnu.org/copyleft/gpl.html
-   [9]: https://github.com/megastep/makeself/releases/download/release-2.4.0/makeself-2.4.0.run
+   [9]: https://github.com/isanych/makeself/releases/download/release-2.4.0.1/makeself-2.4.0.1.run
    [10]: https://github.com/megastep/makeself
    [11]: https://github.com/megastep/loki_setup/
    [12]: http://www.unrealtournament2003.com/
