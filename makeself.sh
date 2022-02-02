@@ -68,10 +68,12 @@
 # - 2.2.0 : Many bugfixes, updates and contributions from users. Check out the project page on Github for the details.
 # - 2.3.0 : Option to specify packaging date to enable byte-for-byte reproducibility. (Marc Pawlowsky)
 # - 2.4.0 : Optional support for SHA256 checksums in archives.
+# - 2.4.0.1 : Fail installation if cannot cd into tmpdir
 # - 2.4.2 : Add support for threads for several compressors. (M. Limber)
 #           Added zstd support.
 # - 2.4.3 : Make explicit POSIX tar archives for increased compatibility.
 # - 2.4.5 : Added --tar-format to override ustar tar archive format
+# - 2.4.5.1 : Fail installation if cannot cd into tmpdir
 #
 # (C) 1998-2021 by Stephane Peter <megastep@megastep.org>
 #
@@ -80,7 +82,7 @@
 # Self-extracting archives created with this script are explictly NOT released under the term of the GPL
 #
 
-MS_VERSION=2.4.5
+MS_VERSION=2.4.5.1
 MS_COMMAND="$0"
 unset CDPATH
 
